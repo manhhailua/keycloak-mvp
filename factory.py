@@ -13,9 +13,9 @@ app = FastAPI()
 
 idp = KeycloakOpenID(
     server_url="http://localhost:9080/auth/",
-    realm_name="vinbase",
+    realm_name="platform",
     client_id="test",
-    client_secret_key="QgPvrhWKJCq9Kpm7ubQyuepVwV1aQnqm",
+    client_secret_key="",
 )
 
 
